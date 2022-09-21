@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <head>
+    <meta charset="utf-8">
+    </head>
+    <title>My World Premiere</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body bgcolor="#F2F2F2">
+
+    <div class="top-bar">
+        <img height=50px src="logo.jpg"/>
+    </div>
+
+    <h1>The Clothing Chronicle</h1>
+
+    <center>
+        <video class="main" controls autoplay muted><source src="Laundry (1).mp4" type="video/mp4">
+        </video>
+    </center>
+
+    <center>
+        <div class="blocks">
+            <div class="desc">
+                <h2>Description</h2>
+                <p> 
+                    It was an average sunny Abu Dhabi morning. I woke up and opened my email like any other day, and I found that I had edit-swapped into Communications Lab, the course I
+                    most loved, the course I most desired. I asked some people, "What have I missed? What do I need to do?".
+                    "Make a short film", they said, making me wonder whether I placed into the correct course.
+                    I double checked, and I was, indeed, in the correct course. That meant my first IM assignment would be making a film. I looked around my room, searching for inspiration.
+                    And that's when the smell hit me. The smell of dirty clothes.
+                
+                    I looked at my screen...
+                    I looked at the clothes...
+                    And I decided to kill two birds with one stone.
+                
+                    The outcome, was this video.
+                </p>
+            </div>
+
+            <div class="cast">
+                <h2>Cast</h2>
+                <div class="slideshow_container">
+                    <div>
+                        <img height=300px src="viru.JPG" id="slide"/>
+                        <div class="text">
+                            <button class = "buttons" onclick = "changeImage('viru.JPG')">
+                                Vir Malhotra
+                            </button>
+                            <button class = "buttons" onclick = "changeImage('sudu.jpeg')">
+                                Sudarshan Jajoo
+                            </button>
+                            <button class = "buttons" onclick = "changeImage('hatim.jpg')">
+                                Hatim
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="bloopers">Bloopers</h2>
+                <video class="bloopers" controls muted><source src="Bloopers.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </center>
+
+    <script src="java.js"></script>
+
+</body>
+</html>
